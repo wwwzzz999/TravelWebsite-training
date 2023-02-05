@@ -68,7 +68,7 @@ public final class MailUtils {
     }
 
     public static void main(String[] args) throws Exception { // 做测试用
-        boolean flag = MailUtils.sendMail("2868011167@qq.com", "你好，这是一封测试邮件，无需回复。", "测试邮件");
+        boolean flag = MailUtils.sendMail("", "你好，这是一封测试邮件，无需回复。", "测试邮件");
         if (flag){
             System.out.println("发送成功");
         }else {
