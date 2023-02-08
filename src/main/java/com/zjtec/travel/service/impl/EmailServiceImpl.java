@@ -102,14 +102,7 @@ public class EmailServiceImpl implements EmailService {
     }
 
 
-    public static void main(String[] args) {
-        EmailServiceImpl j=new EmailServiceImpl();
-        j.setSmtpAuth("true");
-        j.setSmtpHost("smtp.139.com");
-        j.setPassword("Wyz358381954");
-        j.setUsername("17827377530@139.com");
-        j.sendEmail("17827377530@139.com","hello","helloworld");
-    }
+    
 
 }
 
