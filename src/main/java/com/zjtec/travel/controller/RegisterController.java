@@ -74,8 +74,8 @@ public class RegisterController {
 //          Email email = new Email();
 //          email.setSmtpAuth("true");
 //          email.setSmtpHost("smtp.139.com");
-//          email.setPassword("Wyz358381954");
-//          email.setUsername("17827377530@139.com");
+//          email.setPassword("");
+//          email.setUsername("");
           String mail="<a href='"+content+"'>【湛江旅游】</a>";
           emailService.sendEmail(ue.getEmail(),"你好，请激活您的用户",mail);
 
