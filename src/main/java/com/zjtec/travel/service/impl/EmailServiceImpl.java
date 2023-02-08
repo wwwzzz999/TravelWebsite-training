@@ -21,11 +21,11 @@ public class EmailServiceImpl implements EmailService {
     private String smtpHost;//SMTP 地址，例如smtp.139.com
 
     //@Value("#{email.username}")
-    @Value("17827377530@139.com")
+    @Value("")
     private String username;//发送方邮箱地址
 
     //@Value("#{email.password}")
-    @Value("Wyz358381954")
+    @Value("")
     private String password;//密码或授权码
 
   //  @Value("#{email.smtpauth}")
